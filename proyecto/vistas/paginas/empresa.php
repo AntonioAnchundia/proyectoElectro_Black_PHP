@@ -19,7 +19,7 @@
     <div class="card center" style="width: 90rem;">
         <div class="card-body">
             
-        <div class="card mb-10" style="width: 70rem;">
+        <div class="card mb-10" style="width: 79rem;">
   <div class="row no-gutters">
     <div class="col-md-7">
         <br>

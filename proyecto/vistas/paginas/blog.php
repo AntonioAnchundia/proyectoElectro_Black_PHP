@@ -1,3 +1,44 @@
+<style>
+    .fondo-subcription {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+        position: relative;
+    }
+
+    .fondo-subcription-1 {
+        display: block;
+        width: 20%;
+        height: 200px;
+        position: absolute;
+        z-index: 1;
+        right: 25px;
+        top: 5%;
+        cursor: pointer;
+    }
+
+    .fondo-section {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .pregunta {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        font-size: 25px;
+        max-width: 400px;
+        text-align: left;
+        color: #1a579a;
+        background-color: #fff500;
+        padding: 20px;
+        font-weight: 700;
+        text-transform: uppercase;/mayusculas/
+        cursor: pointer;
+    }
+
+</style>
 <section>
     <div class="fondo-subcription">
         <div>
@@ -21,12 +62,11 @@
                                     ¿Cómo mantener tu impresora como nueva?
                                 </h2>
                                 <p class="description">
-                                    La impresora es tu mano derecha en asuntos del trabajo y estudios. Por eso hoy te enseñamos cómo cuidarla para generar con ella una relaci...
+                                    La impresora es tu mano derecha en asuntos del trabajo y estudios. Por eso hoy te enseñamos cómo cuidarla para generar con ella.
                                 </p>
                                 <div class="img-dest-p">
                                     <img alt="impresora" style="border: 0; width: 100%;" src="recursos/imagenes/impresora.jpg">
                                 </div>
-                                <a class="btn" href="#">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -39,12 +79,11 @@
                                     ¡Cuidado con los virus!
                                 </h2>
                                 <p class="description">
-                                    Los celulares no están libres de ser atacados por virus que podrían dañar tu equipo e inclusive comprometer tu información personal y ge...
+                                    Los celulares no están libres de ser atacados por virus que podrían dañar tu equipo e inclusive comprometer tu información personal.
                                 </p>
                                 <div class="img-dest-p">
                                     <img alt="virus" style="border: 0; width: 100%;" src="recursos/imagenes/virus.jpg">
                                 </div>
-                                <a class="btn" href="#">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -57,12 +96,11 @@
                                     ¿Qué se puede cocinar con el microondas?
                                 </h2>
                                 <p class="description">
-                                    Cambia la idea de que el microondas es un electrodoméstico que solo sirve para calentar y descongelar. Toma nota de estos trucos y recetas ...
+                                    Cambia la idea de que el microondas es un electrodoméstico que solo sirve para calentar y descongelar. Toma nota de estos trucos y recetas.
                                 </p>
                                 <div class="img-dest-p">
                                     <img alt="horno" style="border: 0; width: 100%;" src="recursos/imagenes/horno.jpg">
                                 </div>
-                                <a class="btn" href="#">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -75,12 +113,11 @@
                                     ¡A comer frutos secos!
                                 </h2>
                                 <p class="description">
-                                    Los frutos secos son espectaculares, reducen los problemas cardiovasculares, el colesterol, ayudan a perder peso, fortalecen el sistema óse...
+                                    Los frutos secos son espectaculares, reducen los problemas cardiovasculares, el colesterol, ayudan a perder peso, fortalecen el sistema óseo.
                                 </p>
                                 <div class="img-dest-p">
                                     <img alt="flores" style="border: 0; width: 100%;" src="recursos/imagenes/flores.jpg">
                                 </div>
-                                <a class="btn" href="#">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -93,12 +130,11 @@
                                     Adiós oxido.
                                 </h2>
                                 <p class="description">
-                                    Con el paso del tiempo y la falta de uso algunos objetos metálicos comienzan a oxidarse. Para tu suerte, hoy traemos varias maneras de elim...
+                                    Con el paso del tiempo y la falta de uso algunos objetos metálicos comienzan a oxidarse. Para tu suerte, hoy traemos varias maneras de eliminar.
                                 </p>
                                 <div class="img-dest-p">
                                     <img alt="naranja" style="border: 0; width: 100%;" src="recursos/imagenes/naranja.jpg">
                                 </div>
-                                <a class="btn" href="#">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -111,21 +147,16 @@
                                     No te límites, ahora comer fritos es saludable.
                                 </h2>
                                 <p class="description">
-                                    ¿Qué es una Air Fryer? Es un electrodoméstico que funciona a partir de un sistema de aire caliente que se distribuye a través de unos ve...
+                                    ¿Qué es una Air Fryer? Es un electrodoméstico que funciona a partir de un sistema de aire caliente que se distribuye a través de uno.
                                 </p>
                                 <div class="img-dest-p">
                                     <img alt="mesa" style="border: 0; width: 100%;" src="recursos/imagenes/mesa.jpg">
                                 </div>
-                                <a class="btn" href="#">Ver más</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="form-row" style="text-align: center;">
-            <button type="submit" class="btn-primary-blog">Cargar más</button>
         </div>
     </div>
 </section>

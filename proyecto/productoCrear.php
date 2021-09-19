@@ -13,9 +13,12 @@ $conexionBD = BD::crearInstancia();
 $resultado = $conexionBD->query($query);
 if ($resultado) { ?>
 
+<center>
 <H1>SE INSERTO CORRECTAMENTE</H1>
 <H2>POR FAVOR RETROCEDA A LA PAGINA ANTERIOR</H2>
-<img src="recursos/imagenes/GIFF.gif" alt="GIF">
+<img src="recursos/imagenes/GIFF.gif" alt="GIF" height="300px">
+</center>
+
 <?php    } else {
     echo "Error: No se puedo insertar!";
 }?>

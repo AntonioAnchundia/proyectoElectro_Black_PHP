@@ -34,7 +34,7 @@
         background-color: #fff500;
         padding: 20px;
         font-weight: 700;
-        text-transform: uppercase;/mayusculas/
+        text-transform: uppercase;
         cursor: pointer;
     }
 

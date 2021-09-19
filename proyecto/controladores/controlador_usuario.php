@@ -1,7 +1,7 @@
 <?php
     include_once("modelos/usuario.php");
     include_once("conexion.php");
-    BD::crearInstancia(); //instancia e ingresar al metodo
+    BD::crearInstancia(); 
 
     class ControladorUsuario{
         public function inicio(){
@@ -20,7 +20,6 @@
 
         public function crear(){
             if($_POST){
-                // print_r($_POST);
                 $nombre=$_POST['nombre'];
                 
                 $correo=$_POST['correo'];
@@ -49,7 +48,6 @@
                 $fecha_registro=$_POST['fecha_registro'];
 
                 Usuario::editar($id, $nombre,$user, $correo, $contraseña,$privilegio,$fecha_registro);
-                // print_r($_POST);
 
                 header("Location:./?controlador=usuario&accion=inicio");
 

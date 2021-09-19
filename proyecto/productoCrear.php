@@ -15,6 +15,6 @@
     if($resultado){
         echo "SE INSERTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO";
     }else{
-        echo "YA DAÑASTE LA APLICACION, MANCOOOOOOOOOOOOOOOOOO!!!!!!!!!!";
+        echo "Error: No se puedo insertar!";
     }
     ?>

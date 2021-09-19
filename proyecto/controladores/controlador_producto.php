@@ -11,6 +11,8 @@
         }
 
         public function crear(){
+            include_once("vistas/admin/menu.php");
+
             include_once("vistas/producto/crear.php");
         }
     

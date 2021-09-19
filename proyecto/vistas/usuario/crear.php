@@ -7,9 +7,9 @@
             <b>Sign up</b>
         </div>
         <div class="card-body">
-            <form action="" method="POST">
+            <form action="" method="POST" >
                 <div class="mb-3">
-                    <label for="nombre"><b>Apellido:</b></label>
+                    <label for="nombre"><b>Nombre:</b></label>
                     <input required type="text" class="form-control" id="nombre" name="nombre" placeholder="nombre">
                 </div>
                 <div class="mb-3">
@@ -18,12 +18,13 @@
                 </div>
                 <div class="mb-3">
                     <label for="email"><b>Correo Electronico:</b></label>
-                    <input required type="email" class="form-control" id="email" name="correo" placeholder="email">
+                    <input required type="email" class="form-control" id="correo" name="correo" placeholder="email">
                 </div>
                 <div class="mb-3">
                     <label for="contraseña"><b>Contraseña:</b></label>
                     <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="contraseña">
                 </div>
+
 
                 <div class=" text-center align-items-center justify-content-center">
                 <button class="btn btn-primary" type="submit">Enviar</button>

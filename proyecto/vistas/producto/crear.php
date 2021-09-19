@@ -32,7 +32,7 @@
                 <br>
                 <div class="form-group col-sm-12">
                     <label for="img">Imagen:</label>
-                    <input type="file" name="imgProducto" placeholder="imagen">
+                    <input type="file" name="imgProducto" placeholder="imagen" accept=".jpg , .png , .gif">
                 </div>
 
                 <div class=" text-center align-items-center justify-content-center">  

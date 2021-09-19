@@ -1,6 +1,6 @@
 <br>
 
-<!-- <div class=" row m-0  align-items-center justify-content-center" >
+<div class=" row m-0  align-items-center justify-content-center" >
     <div class="card center" style="width: 50rem;">
     
         <div class="card-header text-center">
@@ -41,14 +41,4 @@
             </form>
         </div>
     </div> 
-</div> -->
-
-<h1>INSERTAR UN NUEVO PRODUCTO</h1>
-<form action="" method="POST" enctype="multipart/form-data">
-<input type="text" name="modelo" placeholder="Modelo"> 
-<input type="text" name="marca" placeholder="marca"> 
-<input type="text" name="precio" placeholder="precio">
-<label for="">IMAGEN</label>
-<input type="file" name="imagen"> 
-
-</form>
+</div>

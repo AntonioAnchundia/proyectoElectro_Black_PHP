@@ -10,19 +10,19 @@
             <form action="" method="POST" >
                 <div class="mb-3">
                     <label for="nombre"><b>Nombre:</b></label>
-                    <input required type="text" class="form-control" id="nombre" name="nombre" placeholder="nombre">
+                    <input required type="text" class="form-control" id="nombre" name="nombre" placeholder="nombre" required>
                 </div>
                 <div class="mb-3">
                     <label for="nombre"><b>Usuario:</b></label>
-                    <input required type="text" class="form-control" id="user" name="user" placeholder="usuario">
+                    <input required type="text" class="form-control" id="user" name="user" placeholder="usuario" required>
                 </div>
                 <div class="mb-3">
                     <label for="email"><b>Correo Electronico:</b></label>
-                    <input required type="email" class="form-control" id="correo" name="correo" placeholder="email">
+                    <input required type="email" class="form-control" id="correo" name="correo" placeholder="email" required>
                 </div>
                 <div class="mb-3">
                     <label for="contraseña"><b>Contraseña:</b></label>
-                    <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="contraseña">
+                    <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="contraseña" required>
                 </div>
 
 

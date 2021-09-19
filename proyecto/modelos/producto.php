@@ -30,25 +30,5 @@
             return $listaProductos;
         }
 
-        // public static function crear($imgProducto, $marca, $modelo, $precio, $compra){
-        //     $conexionBD= BD::crearInstancia();
-        //     $sql=$conexionBD->prepare("INSERT INTO produc(imgProducto, marca, modelo, precio, compra) VALUES(?,?,?,?,?)");
-        //     $sql->execute(array($imgProducto, $marca, $modelo, $precio, $compra));
-        
-        // }
-
-        // public static function borrar($id_producto){
-        //     $conexionBD= BD::crearInstancia();
-
-        //     $sql=$conexionBD->prepare("DELETE FROM produc WHERE id_producto=?");
-        //     $sql->execute(array($id_producto));
-        // }
-
-        // public static function editar($id_producto, $imgProducto, $marca, $modelo, $precio){
-        //     $conexionBD= BD::crearInstancia();
-        //     $sql=$conexionBD->prepare("UPDATE produc SET imgProducto=?,marca=?, modelo=?, precio=? WHERE id_producto=? ");
-        //     $sql->execute(array($imgProducto, $marca, $modelo, $precio, $id_producto));
-        // }
-
     }
 ?>

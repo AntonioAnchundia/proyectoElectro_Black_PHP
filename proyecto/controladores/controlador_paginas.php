@@ -4,10 +4,6 @@
             include_once("vistas/paginas/inicio.php");
         }
 
-        // public function credito(){
-        //     include_once("vistas/paginas/credito.php");
-        // }
-
         public function empresa(){
             include_once("vistas/paginas/empresa.php");
         }

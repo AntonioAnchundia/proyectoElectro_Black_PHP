@@ -8,7 +8,6 @@
         public $contraseña;
         public $user;
 
-        //se hace para la consulta
         public function __construct($id, $nombre, $correo, $contraseña, $user){
             $this->id=$id;
             $this->nombre=$nombre;
